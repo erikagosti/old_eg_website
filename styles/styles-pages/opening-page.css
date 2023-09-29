@@ -1,0 +1,57 @@
+.opening {
+  display: flex;
+  flex: 1;
+  padding-top: 100px;
+  filter: blur(4px);
+  opacity: 0.5;
+  transition: opacity 0.4s, filter 1s;
+}
+
+.opening:hover {
+  filter: blur(0px);
+  opacity: 1;
+}
+
+.background-sf {
+  display: flex;
+  flex: 1;
+  position: relative;
+  justify-content: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.sf-image {
+  max-width: 100%;
+}
+
+.sf-image:hover .heading-name {
+  font-size: 60px;
+}
+
+.heading {
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  align-items: center;
+}
+
+.heading-hello {
+  font-size: 1.6vw;
+  align-items: start;
+  margin-bottom: 0;
+}
+
+.heading-name {
+  font-family: 'Outfit', sans-serif;
+  font-size: 7vw;
+  color: rgb(92, 92, 92);
+}
+
+.heading-description {
+  font-size: 1.5vw;
+}

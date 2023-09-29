@@ -1,0 +1,111 @@
+.contact {
+  background-color: rgb(176, 158, 140);
+  height: 700px;
+  display: flex;
+}
+
+.inner-box {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  font-family: 'Outfit', sans-serif;
+  background-color: rgb(193, 176, 162);
+  align-items: center;
+  justify-content: center;
+  margin: 60px 12vw;
+  border-color: rgb(43, 43, 43);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.inner-border {
+  position: absolute;
+  left: 50%;
+  top: 188px;
+  width: -webkit-calc(50% - 2px);
+  height: 386px;
+  border-style: solid;
+  border-color: rgb(43, 43, 43);
+  border-width: 2px;
+  border-top-left-radius: 3px;
+}
+
+.personal-info {
+  margin-bottom: 50px;
+  color: rgb(79, 79, 79);
+  font-size: 20px;
+}
+
+.contact-info {
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.email-info {
+  margin-bottom: 10px;
+}
+
+.number-info {
+  margin-bottom: 35px;
+}
+
+.personal-and-buttons {
+  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.contact-buttons {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.facebook-button, .linkedin-button, .handshake-button,
+.discord-button {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 6px 9px;
+  margin-right: 16px;
+  border-color: transparent;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.facebook-button:hover, .linkedin-button:hover, .handshake-button:hover,
+.discord-button:hover {
+  background-color: rgb(174, 156, 142);
+}
+
+.facebook-button:active, .linkedin-button:active, .handshake-button:active,
+.discord-button:active {
+  background-color: rgb(148, 134, 122);
+}
+
+.discord-button {
+  padding: 12px 9px;
+  margin-right: 0;
+}
+
+.facebook-logo, .linkedin-logo, .handshake-logo, .discord-logo {
+  width: 36px;
+  background-color: transparent;
+}
+
+.contact-image {
+  width: 280px;
+  border-radius: 3px;
+  box-shadow: -14px 14px 0px rgb(221, 211, 207);
+  margin-left: 14px;
+}
+
+.contact-title {
+  font-size: 45px;
+  color: rgb(92, 92, 92);
+  margin-bottom: 30px;
+  text-shadow: -2px 2px 0px rgb(221, 211, 207);
+}
