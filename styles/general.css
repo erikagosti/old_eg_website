@@ -1,24 +1,20 @@
-html {
+/* html {
 
 }
 
 body {
 
-}
+} */
 
 html, body {
   width: 100%;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 p {
   font-family: 'Outfit', sans-serif;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.contents {
-  overflow-y: scroll;
-  scroll-behavior: smooth;
 }

@@ -1,19 +1,30 @@
+.experience-space {
+  margin-bottom: 320px;
+  width: 100%;
+}
+
 .experience {
-  margin-top: 400px;
   margin-bottom: 200px;
   padding-top: 100px;
   padding-bottom: 250px;
-  padding-left: 12vw;
-  padding-right: 12vw;
+  padding-left: 17vw;
+  padding-right: 17vw;
   background-color: rgb(244, 240, 235);
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
   position: relative;
   font-family: 'Outfit', sans-serif;
+  transition: box-shadow 0.2s;
 }
 
-.experience-heading {
-  margin-left: 150px;
+.experience:hover {
+  box-shadow: inset 0px 5px 100px rgba(0, 0, 0, 0.2),
+  inset 0px -5px 100px rgba(0, 0, 0, 0.2), 1px 1px 10px
+  rgba(0, 0, 0, 0.4);
 }
+
+/* .experience-heading {
+  margin-left: 150px;
+} */
 
 .experience-title {
   font-size: 40px;

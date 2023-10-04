@@ -1,6 +1,6 @@
 .contact {
   background-color: rgb(176, 158, 140);
-  height: 700px;
+  height: 720px;
   display: flex;
 }
 
@@ -25,7 +25,7 @@
   left: 50%;
   top: 188px;
   width: -webkit-calc(50% - 2px);
-  height: 386px;
+  height: 406px;
   border-style: solid;
   border-color: rgb(43, 43, 43);
   border-width: 2px;
@@ -36,10 +36,11 @@
   margin-bottom: 50px;
   color: rgb(79, 79, 79);
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .contact-info {
-  margin-left: 90px;
+  margin-left: 50px;
   margin-top: 30px;
 }
 
@@ -55,6 +56,7 @@
   padding: 40px;
   padding-top: 40px;
   padding-bottom: 50px;
+  margin-left: 30px;
 }
 
 .contact-buttons {

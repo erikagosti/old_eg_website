@@ -1,16 +1,17 @@
 .opening {
+  margin-bottom: 200px;
   display: flex;
   flex: 1;
   padding-top: 100px;
-  filter: blur(4px);
+  /* filter: blur(4px);
   opacity: 0.5;
-  transition: opacity 0.4s, filter 1s;
+  transition: opacity 0.4s, filter 1s; */
 }
 
-.opening:hover {
+/* .opening:hover {
   filter: blur(0px);
   opacity: 1;
-}
+} */
 
 .background-sf {
   display: flex;
@@ -23,10 +24,6 @@
 
 .sf-image {
   max-width: 100%;
-}
-
-.sf-image:hover .heading-name {
-  font-size: 60px;
 }
 
 .heading {
@@ -50,6 +47,31 @@
   font-family: 'Outfit', sans-serif;
   font-size: 7vw;
   color: rgb(92, 92, 92);
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 1.5s steps(30, end) forwards,
+  blinking 0.8s infinite;
+  border-right: .075em solid;
+}
+
+.typewriter-container {
+  display: grid;
+  place-items: center;
+  width: 34.5vw;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blinking {
+  0% {border-right-color: transparent}
+  50% {border-right-color: rgb(124, 101, 71)}
+  100% {border-right-color: transparent}
 }
 
 .heading-description {
